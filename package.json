@@ -1,0 +1,14 @@
+{
+  "name": "video-chat-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ulissesferreira/video-chat-api.git",
+  "author": "Ulisses Ferreira <ulissesvf@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
