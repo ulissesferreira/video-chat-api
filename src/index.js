@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const io = require('socket.io')();
 const MAX_CLIENTS = 3;
 
@@ -34,4 +36,4 @@ io.on('connection', client => {
   })
 });
 
-io.listen(80);
+io.listen(process.env.PORT);

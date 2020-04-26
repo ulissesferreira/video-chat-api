@@ -9,6 +9,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "socket.io": "^2.3.0"
   }
 }
